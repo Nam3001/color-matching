@@ -9,9 +9,9 @@ import {
 import { getRandomColor } from './util.js'
 import { PAIR_COUNT, GAME_TIME, GAME_STATE } from './constant.js'
 
-let gameState = GAME_STATE.PENDING
-
 let randomColorList = getRandomColor(PAIR_COUNT)
+
+let gameState = GAME_STATE.PENDING
 
 const overlayList = getGameOverlays()
 
