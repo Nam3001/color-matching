@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Nam3001/color-matching/issues"
   },
-  "homepage": "https://github.com/Nam3001/color-matching#readme"
+  "homepage": "https://github.com/Nam3001/color-matching#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "randomcolor": "^0.6.2"
+  }
 }
